@@ -83,6 +83,7 @@ class Board extends Component {
                                             onFlip={()=>this.handleFlip(i)}/>)
                     }
                 </div>
+                <button className='nextbtn'>Next Level</button>
             </div>
         );
     }

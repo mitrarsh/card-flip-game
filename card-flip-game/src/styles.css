@@ -23,6 +23,7 @@ background: linear-gradient(90deg, rgba(255, 224, 224, 1) 0%, rgba(255, 255, 255
   transform: rotateY(180deg);
 }
 
+
 .card-front,
 .card-back {
   position: absolute;
@@ -70,3 +71,14 @@ background: linear-gradient(90deg, rgba(255, 224, 224, 1) 0%, rgba(255, 255, 255
   height: 2rem;
 }
 
+.nextbtn{
+  font-size: 1.5rem;
+  color:  white;
+  font-weight: 900;
+  margin-top: 2rem;
+  background-color: rgb(102, 154, 78);
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
