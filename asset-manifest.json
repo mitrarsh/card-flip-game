@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/card-flip-game/static/css/main.668d9258.css",
-    "main.js": "/card-flip-game/static/js/main.9e029c1a.js",
-    "static/js/453.3d98b51b.chunk.js": "/card-flip-game/static/js/453.3d98b51b.chunk.js",
-    "static/media/29564900.jpg": "/card-flip-game/static/media/29564900.d3bb1b095452ecceb3ed.jpg",
-    "static/media/logo.svg": "/card-flip-game/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/card-flip-game/index.html",
-    "main.668d9258.css.map": "/card-flip-game/static/css/main.668d9258.css.map",
-    "main.9e029c1a.js.map": "/card-flip-game/static/js/main.9e029c1a.js.map",
-    "453.3d98b51b.chunk.js.map": "/card-flip-game/static/js/453.3d98b51b.chunk.js.map"
+    "main.css": "/%3Ccard-flip-game%3E/card-flip-game/static/css/main.5baabb5f.css",
+    "main.js": "/%3Ccard-flip-game%3E/card-flip-game/static/js/main.0123c9bd.js",
+    "static/js/453.3d98b51b.chunk.js": "/%3Ccard-flip-game%3E/card-flip-game/static/js/453.3d98b51b.chunk.js",
+    "static/media/29564900.jpg": "/%3Ccard-flip-game%3E/card-flip-game/static/media/29564900.d3bb1b095452ecceb3ed.jpg",
+    "static/media/logo.svg": "/%3Ccard-flip-game%3E/card-flip-game/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/%3Ccard-flip-game%3E/card-flip-game/index.html",
+    "main.5baabb5f.css.map": "/%3Ccard-flip-game%3E/card-flip-game/static/css/main.5baabb5f.css.map",
+    "main.0123c9bd.js.map": "/%3Ccard-flip-game%3E/card-flip-game/static/js/main.0123c9bd.js.map",
+    "453.3d98b51b.chunk.js.map": "/%3Ccard-flip-game%3E/card-flip-game/static/js/453.3d98b51b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.668d9258.css",
-    "static/js/main.9e029c1a.js"
+    "static/css/main.5baabb5f.css",
+    "static/js/main.0123c9bd.js"
   ]
 }
