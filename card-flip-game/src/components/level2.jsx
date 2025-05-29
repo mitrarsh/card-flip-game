@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Card from './card';
+import { Link } from 'react-router-dom';
 
 
 class Level2 extends Component {
@@ -82,7 +83,7 @@ class Level2 extends Component {
         return (
             <div className='cards-container'>
                     <p>{this.state.status}</p>
-                <div className='cards'>
+                <div className='cards2'>
                     {this.state.cardList.map(i=><Card 
                                             value={i.value}
                                             flipped={i.flipped}
@@ -90,7 +91,28 @@ class Level2 extends Component {
                                             onFlip={()=>this.handleFlip(i)}/>)
                     }
                 </div>
-                <button Link="" className='nextbtn'>Next Level</button>
+                <button  className='nextbtn'><Link
+                                        to="/level2"
+                                        disabled={this.state.remaining !== 0}
+                                        style={{
+                                                fontSize: "1.5rem",
+                                                color:  "white",
+                                                fontWeight: "900",
+                                                marginTop: "2rem",
+                                                backgroundColor: "rgb(102, 154, 78)",
+                                                border: "none",
+                                                borderRadius: "0.5rem",
+                                                padding: "0.5rem",
+                                                cursor: "pointer",
+                                                textDecoration:"none",
+                                                pointerEvents: this.state.remaining !== 0 ? 'none' : 'auto',
+                                                opacity: this.state.remaining !== 0 ? 0.5 : 1,
+                                            
+                                        }}
+                                        >
+                                        Next Level
+                                        </Link>
+                                </button>
             </div>
         );
     }

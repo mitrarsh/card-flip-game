@@ -4,10 +4,12 @@ background: #ffe0e0;
 background: linear-gradient(90deg, rgba(255, 224, 224, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(255, 212, 179, 1) 100%);
 }
 .card-container {
-  perspective: 1000px;
+
   width: 200px;
   height: 200px;
 }
+
+
 
 .card-inner {
   position: relative;
@@ -65,6 +67,17 @@ background: linear-gradient(90deg, rgba(255, 224, 224, 1) 0%, rgba(255, 255, 255
     grid-template-rows: 50% 50%;
     gap: 1rem;
     
+}
+.cards2{
+      display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33% 33% 33%;
+    gap: 1rem;}
+.cards3{
+      display: grid;
+    grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+    grid-template-rows: 33% 33% 33%;
+    gap: 1rem;
 }
 
 .status{

@@ -3,7 +3,7 @@ import Card from './card';
 import { Link } from 'react-router-dom';
 
 
-class Board extends Component {
+class Level3 extends Component {
     state = {
         cardList:[
             {value:"🍩", flipped:false, paired:false},
@@ -12,12 +12,25 @@ class Board extends Component {
             {value:"🍬", flipped:false, paired:false},
             {value:"🍨", flipped:false, paired:false},
             {value:"🍨", flipped:false, paired:false},
+            {value:"🧁", flipped:false, paired:false},
+            {value:"🧁", flipped:false, paired:false},
+            {value:"🍪", flipped:false, paired:false},
+            {value:"🍪", flipped:false, paired:false},
+            {value:"🍭", flipped:false, paired:false},
+            {value:"🍭", flipped:false, paired:false},
+            {value:"🧋", flipped:false, paired:false},
+            {value:"🧋", flipped:false, paired:false},
+            {value:"🍫", flipped:false, paired:false},
+            {value:"🍫", flipped:false, paired:false},
+            {value:"🥨", flipped:false, paired:false},
+            {value:"🥨", flipped:false, paired:false},
+
             ].sort(()=>Math.random()-0.5),
 
         flippedCards:0,
         paired:0,
-        status:"3 pairs left.",
-        remaining:3,
+        status:"9 pairs left.",
+        remaining:69,
     } 
 
     handleFlip=(card)=>{
@@ -76,7 +89,7 @@ class Board extends Component {
         return (
             <div className='cards-container'>
                     <p>{this.state.status}</p>
-                <div className='cards'>
+                <div className='cards3'>
                     {this.state.cardList.map(i=><Card 
                                             value={i.value}
                                             flipped={i.flipped}
@@ -85,9 +98,9 @@ class Board extends Component {
                     }
                 </div>
                 <button  className='nextbtn'><Link
-                        to="/level2"
-                        disabled={this.state.remaining !== 0}
-                        style={{
+                                        to="/level3"
+                                        disabled={this.state.remaining !== 0}
+                                        style={{
                                                 fontSize: "1.5rem",
                                                 color:  "white",
                                                 fontWeight: "900",
@@ -100,15 +113,15 @@ class Board extends Component {
                                                 textDecoration:"none",
                                                 pointerEvents: this.state.remaining !== 0 ? 'none' : 'auto',
                                                 opacity: this.state.remaining !== 0 ? 0.5 : 1,
-                            
-                        }}
-                        >
-                        Next Level
-                        </Link>
-                </button>
-                </div>
-            );
-        }
+                                            
+                                        }}
+                                        >
+                                        Next Level
+                                        </Link>
+                                </button>
+            </div>
+        );
     }
+}
  
-export default Board;
+export default Level3;
